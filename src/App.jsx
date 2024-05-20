@@ -1,7 +1,12 @@
+import Layout from "./components/Layout";
+import ToDoContain from "./components/ToDoContain";
+
 export default function App() {
   return (
     <>
-      <h1>투두리스트 타임어택</h1>
+      <Layout>
+        <ToDoContain />
+      </Layout>
     </>
   );
 }
